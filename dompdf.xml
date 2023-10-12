@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="library" version="2.5" method="upgrade">
+	<name>dompdf</name>
+	<version>2.1</version>
+	<creationDate>OCT 2023</creationDate>
+	<libraryname>dompdf</libraryname>
+	<author>J2Store</author>
+	<authorEmail>support@j2store.org</authorEmail>
+	<authorUrl>http://www.j2store.org</authorUrl>
+	<copyright>2018 Weblogicx India Private Limited</copyright>
+	<license>GNU General Public License v3 or later versions</license>
+	<description>DOMPDF_LIBRARY_DESCRIPTION</description>
+	<scriptfile>script_lib_dompdf.php</scriptfile>
+    <files>
+		<folder>vendor</folder>
+		<filename>web.config</filename>
+		<filename>version.php</filename>
+		<filename>autoload.inc.php</filename>
+		<filename>index.html</filename>
+    </files>
+</extension>
+
